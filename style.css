@@ -1,0 +1,57 @@
+/*
+TO DO: 
+- Figure out why background is overlapping image.
+*/
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background: linear-gradient(0deg, transparent 60%, #eb7434 60%),linear-gradient(215deg, transparent 60%, #3452eb 60%);
+  background-repeat: no-repeat;
+
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-family: "Roboto", Trebuchet, monospace;
+}
+
+.background-icon {
+  align-self: flex-end;
+
+  background-image: url(win.png);
+
+  width: 30rem;
+  height: 30rem;
+}
+
+main {
+  display: flex;
+}
+
+h2 {
+  color: #fff;
+
+  margin-top: -10rem;
+  margin-left: -10rem;
+
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-family: "Poppins", Courier, monospace;
+}
+
+.pop {
+  max-width: 40ch;
+  margin-right: 20rem;
+  margin-top: 15rem;
+  border-radius: 1rem;
+
+  text-align: center;
+
+  background: #fff;
+  box-shadow: 4px 4px 2px gray;
+}
